@@ -1,0 +1,177 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210408/pngtree-abstract-background-with-paper-cut-multi-layers-for-website-image_596411.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ---------- HERO ---------- */
+header.hero {
+    background-image: url("https://img.freepik.com/free-photo/lilac-acrylic-texture-background-wallpaper_53876-104015.jpg?semt=ais_hybrid&w=740&q=80");
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-bottom: 9px solid black;
+    padding: 20px;
+}
+
+.borch2 {
+    background-color: rgba(43, 206, 227, 0.85);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 2px solid white;
+    margin: 10px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+.borch21 {
+    
+    color: black;
+    padding: 15px 30px;
+   
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* КНОПКА В HERO */
+.hero-btn {
+    margin-top: 20px;
+    background-color: #7dacb0;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ---------- НАВІГАЦІЯ ---------- */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.btn {
+    background-color: #2bcee3;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #2bcee3;
+}
+
+/* ---------- ПРО НАС ---------- */
+.about {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.borch {
+    background-color: #2bcee3;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* ---------- ЗОБРАЖЕННЯ ---------- */
+.photo {
+    height: 60vh;
+    max-width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+/* ---------- КАРТКИ ТОВАРІВ ---------- */
+.products {
+    padding: 40px 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+}
+
+.card p {
+    padding: 0 10px;
+}
+
+.price {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2bcee3;
+    margin: 15px 0;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid white;
+    margin-top: 40px;
+    color: white;
+}
+
+footer img.small {
+    height: 80px;
+    margin: 10px 0;
+}
